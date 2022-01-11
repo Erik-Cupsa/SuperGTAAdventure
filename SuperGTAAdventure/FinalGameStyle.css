@@ -1,0 +1,42 @@
+canvas {
+  margin-left: 300px;
+    border:1px solid #d3d3d3;
+    background-image: url("https://i.imgur.com/rdgmZTo.gif?noredirect");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+#HighScore {
+  margin-top: 150px;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: lightblue
+    }
+
+    20% {
+        background-color: aqua
+    }
+
+    40% {
+        background-color: greenyellow
+    }
+
+    50% {
+        background-color: yellow
+    }
+
+    60% {
+        background-color: orange
+    }
+
+    80% {
+        background-color: red
+    }
+
+    100% {
+        background-color: purple
+    }
+}
+body {
+    animation: bgcolor 5s infinite;
+}
